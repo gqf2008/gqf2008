@@ -55,9 +55,9 @@ decode 吞吐 **35,251 tok/s = llama.cpp Vulkan 的 55×**；Qwen3-30B-A3B 真�
 
 ### 🖥 aerodesk — 全平台远程桌面（自研 WebRTC SFU + MCP 远控）
 
-Windows/macOS/Linux 被控端与观看端全通：DXGI 采集、硬编硬解、虚拟显示、剪贴板、远程命令与文件传输；**MCP 工具面**让 AI agent 能操作远程电脑（带危险命令白名单与审计）。
+Windows/macOS/Linux 被控端与观看端全通：DXGI 采集、硬编硬解、虚拟显示、剪贴板、远程命令与文件传输；**MCP 工具面**让 AI agent 能操作远程电脑（带危险命令白名单与审计）。由我参与的组织 [aerodesk-labs](https://github.com/aerodesk-labs) 维护。
 
-[查看仓库 →](https://github.com/gqf2008/aerodesk)
+[查看仓库 →](https://github.com/aerodesk-labs/aerodesk)
 
 ### 🎛 vdev — macOS 虚拟设备全家桶（100% Rust）
 
