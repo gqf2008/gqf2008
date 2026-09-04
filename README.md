@@ -43,12 +43,6 @@ Rust + Slint 菜单栏应用，把 IM 消息路由给本地 AI agent（本项目
 
 [查看仓库 →](https://github.com/gqf2008/abb)
 
-### 🤖 wechat-mac-rpa — macOS 微信视觉 RPA 框架
-
-基于多模态视觉感知与 LLM Agent 的微信自动化框架。
-
-[查看仓库 →](https://github.com/gqf2008/wechat-mac-rpa)
-
 ---
 
 ## 📖 当前在做
