@@ -45,6 +45,28 @@ Rust + Slint 菜单栏应用，把 IM 消息路由给本地 AI agent（本项目
 
 ---
 
+## 🧰 技术底盘与实验
+
+### 🚀 machserve — 全 Rust LLM 推理引擎（HIP/ROCm，零 Python）
+
+decode 吞吐 **35,251 tok/s = llama.cpp Vulkan 的 55×**；Qwen3-30B-A3B 真机 88 tok/s（24GB 消费级 GPU）；分页 KV 前缀共享端到端 2.84×；OpenAI 兼容 API。AMD 优先，MIT。
+
+[查看仓库 →](https://github.com/gqf2008/machserve)
+
+### 🖥 aerodesk — 全平台远程桌面（自研 WebRTC SFU + MCP 远控）
+
+Windows/macOS/Linux 被控端与观看端全通：DXGI 采集、硬编硬解、虚拟显示、剪贴板、远程命令与文件传输；**MCP 工具面**让 AI agent 能操作远程电脑（带危险命令白名单与审计）。
+
+[查看仓库 →](https://github.com/gqf2008/aerodesk)
+
+### 🎛 vdev — macOS 虚拟设备全家桶（100% Rust）
+
+虚拟 HID / 摄像头 / 屏幕 / 声卡，纯用户态实现（Apple Silicon）；虚拟屏幕 + 摄像头 + WebRTC SFU 组合串流端到端实测通过。
+
+[查看仓库 →](https://github.com/gqf2008/vdev)
+
+---
+
 ## 📖 当前在做
 
 - 出版《用 Rust 手写 RTOS 内核》——31 章完稿，三审三校完成（2026-09）
